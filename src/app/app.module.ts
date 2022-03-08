@@ -6,21 +6,23 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
-import { FeatureComponent } from './feature/feature.component';
-import { PricingComponent } from './pricing/pricing.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+// import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    FeatureComponent,
-    PricingComponent
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     BrowserAnimationsModule
+    // AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
