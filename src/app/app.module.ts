@@ -9,19 +9,31 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 // import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { MatSliderModule } from '@angular/material/slider';
+import { AboutComponent } from './about/about.component';
+import { CoursesComponent } from './courses/courses.component';
+import { AuthComponent } from './auth/auth.component';
+// import {MatButtonModule, MatCheckboxModule} from '@angular/material'
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    AboutComponent,
+    CoursesComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSliderModule
+    // MatButtonModule,
+    // MatCheckboxModule
     // AngularFontAwesomeModule
   ],
   providers: [],
