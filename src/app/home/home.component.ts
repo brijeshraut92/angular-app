@@ -12,10 +12,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
- onNewCourses(){
-  this.router.navigate(['courses'])
- }
- onJoin(){
-   this.router.navigate(['auth'])
- }
+  onNewCourses() {
+    this.router.navigate(['courses'])
+  }
+  onJoin() {
+    this.router.navigate(['auth'])
+  }
 }

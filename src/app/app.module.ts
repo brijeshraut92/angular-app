@@ -6,22 +6,22 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
-import { SignupComponent } from './signup/signup.component';
+// import { LoginComponent } from './login/login.component';
+// import { SignupComponent } from './signup/signup.component';
 // import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { MatSliderModule } from '@angular/material/slider';
 import { AboutComponent } from './about/about.component';
 import { CoursesComponent } from './courses/courses.component';
 import { AuthComponent } from './auth/auth.component';
 // import {MatButtonModule, MatCheckboxModule} from '@angular/material'
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent,
-    SignupComponent,
+    // LoginComponent,
+    // SignupComponent,
     AboutComponent,
     CoursesComponent,
     AuthComponent
@@ -31,7 +31,8 @@ import { AuthComponent } from './auth/auth.component';
     AppRoutingModule,
     NgbModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MatSliderModule,
+    FormsModule
     // MatButtonModule,
     // MatCheckboxModule
     // AngularFontAwesomeModule
