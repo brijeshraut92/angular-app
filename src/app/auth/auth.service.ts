@@ -1,7 +1,15 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from '@angular/common/http'
 
-interface AuthResponseData { }
+//optional//
+interface AuthResponseData {
+    idToken: string 
+    IDToken: string
+    email: string
+    refreshToken: string
+    expiresIn: string
+    localId: string
+}
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
